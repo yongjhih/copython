@@ -17,5 +17,5 @@ After:
 ```py
 rx.Observable.from_(seconds).flat_map(s -> {
   executor.submit(sleep, s)
-}).subscribe(output);
+}).subscribe(output)
 ```
